@@ -1,0 +1,28 @@
+{
+  "name": "default",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "new:view": "node ./scripts/generateView/index",
+    "new:comp": "node ./scripts/generateComponent/index"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "bin": {
+    "comps": "bin/comps",
+    "comps-add": "bin/comps-add",
+    "comps-delete": "bin/comps-delete",
+    "comps-list": "bin/comps-list",
+    "comps-init": "bin/comps-init"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
